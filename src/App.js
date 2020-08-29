@@ -18,7 +18,6 @@ function App() {
         <div className='app__body'>
           <Router>
             <Sidebar />
-
             <Switch>
               <Route path='/rooms/:roomId'>
                 <Chat />
@@ -30,6 +29,8 @@ function App() {
           </Router>
         </div>
       )}
+      Note: This session will auto destroy if you hit browser reload or close the
+      window but the messages will be stored.
     </div>
   );
 }

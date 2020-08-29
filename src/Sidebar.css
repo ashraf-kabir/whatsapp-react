@@ -38,6 +38,15 @@
   border-right: 1px solid lightgray;
 }
 
+.sidebar__headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__headerLeft > span {
+  padding-left: 10px;
+}
+
 .sidebar__headerRight {
   display: flex;
   align-items: center;
